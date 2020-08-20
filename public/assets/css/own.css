@@ -1,0 +1,15 @@
+video {
+    width: 100%;
+}
+
+.background, .navbar-collapse, #mainNav.navbar-shrink, #mainNav{
+    background-color: rgb(14, 43, 100);
+}
+
+#mainNav .navbar-brand, #mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus, .menuBar{
+    color: rgba(72, 179, 255);
+}
+
+section{
+    padding: 0;
+}
