@@ -60,7 +60,7 @@
         <script src="{{ asset('/assets/js/creative.min.js') }}"></script>
   
         <!-- added scripts -->
-        {{-- <script src="{{ asset('/assets/js/idle_tracker.js') }}"></script> --}}
-        <script src="{{ asset('/assets/js/todo_list.js') }}"></script>
+        <script src="{{ asset('/assets/js/idle_tracker.js') }}"></script>
+        {{-- <script src="{{ asset('/assets/js/todo_list.js') }}"></script> --}}
     </body>
 </html>

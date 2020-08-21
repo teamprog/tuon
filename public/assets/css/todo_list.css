@@ -146,3 +146,15 @@ input{
 .todo-list:empty + .empty-state {
   display: flex;
 }
+
+a.back{
+  color:rgba(72, 179, 255);
+  padding:.5rem 1rem;
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+a.back:hover{
+  color: #fff;
+}

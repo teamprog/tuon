@@ -1,6 +1,7 @@
 var idle_max_time = 9; //seconds
 var user_idle_time = 0;
 var user_idle_count = 0;
+var isPaused = false;
 // $("#testing span").text(user_idle_time++);
 
 $(window).ready(function(){
@@ -21,6 +22,15 @@ $(window).ready(function(){
     $(window).scroll(function(event){
         // $("#testing span").text(event.pageX + ", " + event.pageY);
         user_idle_time = 0;
+    });
+
+    document.addEventListener("visibilitychange", function(){
+        if(document.visibilityState == "hidden"){
+            alert("Hey");
+            isPaused = true;
+        }else{
+            isPaused = false;
+        }
     });
 
     function CheckIdleTime(){

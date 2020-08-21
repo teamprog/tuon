@@ -3,12 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tuon: Todo List</title>
+        <link href="{{ asset('/assets/css/creative.min.css') }}" rel="stylesheet">
         <link href="{{ asset('/assets/css/todo_list.css') }}" rel="stylesheet">
     </head>
 
     <body>
         <main>
             <div class="container">
+                <a href="{{ url('/') }}" class="back">{{ __('Go back to homepage') }}</a>
                 <h1 class="app-title">{{ __('Tuon Todo List') }}</h1>
                 <ul class="todo-list js-todo-list"></ul>
 
