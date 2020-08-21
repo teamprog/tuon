@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function () { return view('welcome'); });
 
-Route::get('/', function () { return view('landing_page'); });
-Route::get('/todo', function () { return view('to_do_list'); });
+Route::get('/', function () { return view('landing_page/home'); });
+Route::get('/todo', function () { return view('landing_page/todo_list'); });
